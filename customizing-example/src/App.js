@@ -1,9 +1,12 @@
 import Heading from './components/Heading';
 import './App.css';
 
-function App() {
+function App(props) {
   return (
-    <Heading />
+    <div>
+      <h1>{props.title}</h1>
+      <Heading name="Pie" />
+    </div>
   );
 };
 
