@@ -7,5 +7,17 @@ import Nav from './Nav';
 import Promo from './Promo';
 import Logo from './Logo';
 import Button from './Button';
+import ModeToggle from './ModeToggler';
 
-export { Footer, Heading, Intro1, Intro2, Intro3, Nav, Promo, Logo, Button }
+export {
+  Footer,
+  Heading,
+  Intro1,
+  Intro2,
+  Intro3,
+  Nav,
+  Promo,
+  Logo,
+  Button,
+  ModeToggle
+}
