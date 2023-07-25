@@ -1,16 +1,22 @@
 import {
-  Heading, 
+  Heading,
   Promo,
-  Logo, 
+  Logo,
   Button,
-  ModeToggle
+  ModeToggle,
+  Counter,
+  MealsList
 } from './components/Components';
-
+import MealsProvider from './providers/MealsProvider';
 import './App.css';
 
 function App(props) {
   return (
     <div>
+      <MealsProvider>
+        <MealsList />
+        <Counter />
+      </MealsProvider>
       <ModeToggle />
       <Button />
       <Promo />

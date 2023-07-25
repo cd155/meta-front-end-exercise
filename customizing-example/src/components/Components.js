@@ -8,6 +8,8 @@ import Promo from './Promo';
 import Logo from './Logo';
 import Button from './Button';
 import ModeToggle from './ModeToggler';
+import Counter from './Counter';
+import MealsList from './MealsList';
 
 export {
   Footer,
@@ -19,5 +21,7 @@ export {
   Promo,
   Logo,
   Button,
-  ModeToggle
+  ModeToggle,
+  Counter,
+  MealsList
 }
