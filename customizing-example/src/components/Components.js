@@ -6,5 +6,6 @@ import Intro3 from './Intro3';
 import Nav from './Nav';
 import Promo from './Promo';
 import Logo from './Logo';
+import Button from './Button';
 
-export { Footer, Heading, Intro1, Intro2, Intro3, Nav, Promo, Logo }
+export { Footer, Heading, Intro1, Intro2, Intro3, Nav, Promo, Logo, Button }
