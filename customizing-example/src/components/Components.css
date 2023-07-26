@@ -2,3 +2,13 @@
   font-weight: bold;
   line-height: 20px;
 }
+.main-nav {
+  background: #ee9972;
+  padding: 20px;
+}
+.main-nav-item {
+  color: #edefee;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
