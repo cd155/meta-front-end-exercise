@@ -16,27 +16,27 @@ function App() {
  
   function minus(e) { 
     e.preventDefault(); 
-  	// Add the code for the minus function 
+    setResult((result) => result - Number(inputRef.current.value)); 
   };
  
   function times(e) { 
     e.preventDefault(); 
-    // Add the code for the times function 
+    setResult((result) => result * Number(inputRef.current.value)); 
   }; 
  
   function divide(e) { 
     e.preventDefault(); 
-    // Add the code for the divide function 
+    setResult((result) => result / Number(inputRef.current.value)); 
   };
  
   function resetInput(e) { 
     e.preventDefault(); 
-    // Add the code for the resetInput function 
+    inputRef.current.value = 0;
   }; 
  
   function resetResult(e) { 
     e.preventDefault(); 
-  	// Add the code for the resetResult function 
+    setResult(0);
   }; 
  
   return ( 
