@@ -1,28 +1,35 @@
 import {
+  Nav,
   Heading,
   Promo,
   Logo,
   Button,
   ModeToggle,
   Counter,
-  MealsList
+  MealsList,
+  Footer
 } from './components/Components';
 import MealsProvider from './providers/MealsProvider';
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
 
-function App(props) {
+function App() {
   return (
     <div>
-      <MealsProvider>
-        <MealsList />
-        <Counter />
-      </MealsProvider>
-      <ModeToggle />
-      <Button />
-      <Promo />
-      <h1>{props.title}</h1>
-      <Heading name="Pie" />
-      <Logo url="https://simgbb.com/images/logo.png" />
+      <Nav />
+      <Routes>
+        <Route path="/" element={
+          <MealsProvider>
+            <MealsList />
+            <Counter />
+          </MealsProvider>} />
+        <Route path="/modeToggle" element={<ModeToggle />} />
+        <Route path="/button" element={<Button />} />
+        <Route path="/promo" element={<Promo />} />
+        <Route path="/logo" element={
+          <Logo url="https://simgbb.com/images/logo.png" />} />
+      </Routes>
+      <Footer />
     </div>
   );
 };
