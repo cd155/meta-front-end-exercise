@@ -9,6 +9,7 @@ function Nav() {
       <Link to="/promo" className="main-nav-item" > Promo </Link>
       <Link to="/button" className="main-nav-item" > Button </Link>
       <Link to="/logo" className="main-nav-item" > Logo </Link>
+      <Link to="/video" className="main-nav-item" > Video </Link>
     </nav>
   );
 };

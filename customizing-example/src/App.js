@@ -1,4 +1,5 @@
 import {
+  Video,
   Nav,
   Heading,
   Promo,
@@ -28,6 +29,8 @@ function App() {
         <Route path="/promo" element={<Promo />} />
         <Route path="/logo" element={
           <Logo url="https://simgbb.com/images/logo.png" />} />
+        <Route path="/video" element={
+          <Video url="https://www.youtube.com/watch?v=LXb3EKWsInQ" />} />
       </Routes>
       <Footer />
     </div>

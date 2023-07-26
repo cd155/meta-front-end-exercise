@@ -10,6 +10,7 @@ import Button from './Button';
 import ModeToggle from './ModeToggler';
 import Counter from './Counter';
 import MealsList from './MealsList';
+import Video from './Video'
 
 export {
   Footer,
@@ -23,5 +24,6 @@ export {
   Button,
   ModeToggle,
   Counter,
-  MealsList
+  MealsList,
+  Video
 }
