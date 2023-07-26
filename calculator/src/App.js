@@ -15,22 +15,27 @@ function App() {
   }; 
  
   function minus(e) { 
+    e.preventDefault(); 
   	// Add the code for the minus function 
   };
  
   function times(e) { 
+    e.preventDefault(); 
     // Add the code for the times function 
   }; 
  
   function divide(e) { 
+    e.preventDefault(); 
     // Add the code for the divide function 
   };
  
   function resetInput(e) { 
+    e.preventDefault(); 
     // Add the code for the resetInput function 
   }; 
  
   function resetResult(e) { 
+    e.preventDefault(); 
   	// Add the code for the resetResult function 
   }; 
  
