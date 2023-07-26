@@ -1,15 +1,13 @@
-import { useMealsListContext } from "../providers/MealsProvider";
+import { useMealsListContext1 } from "../providers/MealsProvider";
 
-const Counter = () => {
+function Counter() {
+  const { meals } = useMealsListContext1();
 
-    const { meals } = useMealsListContext();
-
-    return (
-        <div>
-            <h3>Number of meals today: {meals.length}</h3>
-        </div>
-    );
-
+  return (
+    <div>
+      <h3>Number of meals today: {meals.length}</h3>
+    </div>
+  );
 }
 
 export default Counter;
