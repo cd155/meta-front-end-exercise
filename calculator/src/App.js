@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() { 
   const inputRef = useRef(null); 
-  const resultRef = useRef(null); 
+  // const resultRef = useRef(null); 
   const [result, setResult] = useState(0); 
  
   function plus(e) { 
@@ -45,7 +45,7 @@ function App() {
         <h1>Simplest Working Calculator</h1> 
       </div> 
       <form> 
-        <p ref={resultRef}> 
+        <p> 
           {result} 
         </p> 
         <input
